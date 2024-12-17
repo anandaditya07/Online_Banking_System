@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Management System</title>
+</head>
+<body>
+  <h1>Bank Management System</h1>
+  <form id="bank-form">
+    <label for="account-number">Account Number:</label>
+    <input type="text" id="account-number" name="account-number" required>
+    <br>
+    <label for="account-holder-name">Account Holder Name:</label>
+    <input type="text" id="account-holder-name" name="account-holder-name" required>
+    <br>
+    <label for="balance">Balance:</label>
+    <input type="number" id="balance" name="balance" required>
+    <br>
+    <button type="submit">Create Account</button>
+    <button type="submit" formaction="/delete">Delete Account</button>
+    <button type="submit" formaction="/search">Search Account</button>
+    <button type="submit" formaction="/display">Display All Accounts</button>
+  </form>
+  <br>
+  <textarea id="output-area" rows="10" cols="50" readonly></textarea>
+  <script src="script.js"></script>
+</body>
+</html>
