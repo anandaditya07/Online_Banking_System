@@ -1,11 +1,9 @@
 public class GUI {
     // Source code is decompiled from a .class file using FernFlower decompiler.
-
     class BankAccount {
         private String accountNumber;
         private String accountHolderName;
         private double balance;
-
         /**
          * Constructor to initialize a new BankAccount.
          *
